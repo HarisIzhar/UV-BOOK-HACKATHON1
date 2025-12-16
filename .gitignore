@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Docusaurus build outputs
+build/
+.dist/
+/dist-*/
+
+# Docusaurus cache
+.docusaurus/
+.temp/
+.cache/
+
+# Environment variables
+.env*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.dir
+.hspax
+.svn
+.well-known
+.nyc_output
+.coverage
+.gitattributes
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+!README.md
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs that might be generated
+out/
+dist/
+.nuxt/
+.next/
+.svelte-kit/
+output/
+
+# System files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

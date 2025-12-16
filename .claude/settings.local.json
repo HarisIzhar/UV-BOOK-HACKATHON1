@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(mkdir -p docs src)",
+      "Bash(ls -la history/prompts/\"Physical AI & Humanoid Robotics Book\"/)",
+      "Bash($env:SPECIFY_FEATURE=\"default\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(powershell -ExecutionPolicy Bypass -Command \"$env:SPECIFY_FEATURE=''default''; . ''.specify/scripts/powershell/check-prerequisites.ps1'' -Json -RequireTasks -IncludeTasks\")",
+      "Bash(npm install)",
+      "Bash(npx docusaurus start)",
+      "Bash(npx docusaurus start --port 3001)",
+      "Bash(npx docusaurus build)",
+      "Bash(npx docusaurus serve --port 3002)"
+    ]
+  }
+}
