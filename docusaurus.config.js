@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://harisizhar.github.io',
+  url: 'https://uv-book-hackathon-1.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-org/uvbook/tree/main/',
+            'https://github.com/HarisIzhar/UV-BOOK-HACKATHON1/tree/main/',
         },
         blog: false, // Disable blog for book project
         theme: {
@@ -69,7 +69,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/your-org/uvbook',
+            href: 'https://github.com/HarisIzhar/UV-BOOK-HACKATHON1',
             label: 'GitHub',
             position: 'right',
           },
